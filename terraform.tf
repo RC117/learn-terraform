@@ -1,12 +1,12 @@
 terraform {
 
-  cloud {
-    organization = "organization-name"
+  # cloud {
+  #   organization = "MySandbox_RC117"
 
-    workspaces {
-      name = "learn-terraform"
-    }
-  }
+  #   workspaces {
+  #     name = "learn-terraform"
+  #   }
+  # }
 
   required_providers {
     aws = {
